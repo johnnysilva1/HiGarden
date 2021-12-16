@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+    flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	background: lightblue;
+}
+
+main {
+    min-height: 100%;
+	position: static;
+	display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+form {
+	background: white;
+	width: 300px;
+	padding: 30px;
+    margin: 40px;
+	border-radius: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 5px 5px 30px -10px;
+	}
+
+input {
+	display: block;
+	margin: 3px;
+	width: 17rem;
+	height: 1rem;
+	outline: 0;
+	border: 0;
+	background: #f2f2f2;
+	padding: 19px;
+}
+
+button {
+	border: 0;
+	text-transform: uppercase;
+	height: 2.7rem;
+	width: 7rem;
+	cursor: pointer;
+	background: lightblue;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#usuario{
+	margin-top: 20px;
+}
+
+#senha{
+	margin-bottom: 19px;
+}
+
+#btn-esq {
+	font-size: 11;
+}
+
+.form-login .mensagem {
+	margin-top: 17px;
+	font-size: 13;
+	color: gray;
+}
+
+#resetSenha{
+	margin-top: 10px;
+	font-size: 13;
+}
+
+.form-message-red{
+    color: red;
+    font-size: 13;
+    margin-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+	position: relative;
+	background: lightcyan;
+	margin-bottom: 3rem;
+}
+
+.navbar-nav{
+    width: 100vw;
+	display: flex;
+	list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+	text-decoration: none;
+	width: 100%;
+	min-height: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-link:hover{
+	background: white;
+}

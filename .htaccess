@@ -1,0 +1,10 @@
+Options -Indexes
+
+<Files ~ "\.(db|ini|sql|log|class\.php)$">
+	Order Allow,Deny
+	Deny from All
+</Files>
+
+
+php_flag display_startup_errors on
+php_flag display_errors on
