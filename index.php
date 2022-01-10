@@ -2,13 +2,13 @@
     include_once 'header.php';
 ?>
 
-<main>
-<h1>Olá, <?php if (isset($_SESSION['usersId'])) {
-    echo explode(' ', $_SESSION['usersName'])[0];
+<main class='main-index'>
+<?php if (isset($_SESSION['usersId'])) {
+    include_once 'user-view.php';
 } else {
-    echo 'Visitante';
+    echo '<h1>Olá, Visitante</h1>';
 }
-?> </h1>
+?> 
 </main>
 <?php
     include_once 'footer.php';

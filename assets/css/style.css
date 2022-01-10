@@ -116,3 +116,21 @@ a {
 .nav-link:hover{
 	background: white;
 }
+
+.main-index{
+	height: 100%;
+	padding: 10px;
+}
+
+.left-panel{
+	min-width: 20rem;
+	height: 50vh;
+	background: lightgray;
+	margin-right: 20px;
+}
+
+.right-panel{
+	min-width: 20rem;
+	height: 50vh;
+	background: lightgreen;
+}

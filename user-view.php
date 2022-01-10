@@ -1,0 +1,4 @@
+<div class='left-panel'>
+</div>
+<div class="right-panel">
+</div>

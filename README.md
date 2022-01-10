@@ -7,4 +7,4 @@ Personal garden management project using no frameworks whatsoever, just vanilla 
 ---
 Projeto pessoal em PHP puro para o gerenciamento da minha horta. Sem o uso de nenhum tipo de framework.
 
-**Feito para rodar somente na minha LAN.**
+**Feito para rodar somente em LAN.**
