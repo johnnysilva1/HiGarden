@@ -125,8 +125,15 @@ a {
 .left-panel{
 	min-width: 20rem;
 	height: 50vh;
-	background: lightgray;
+	background-image: url('../images/planta.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 40px;
 }
 
 .right-panel{
